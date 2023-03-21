@@ -40,7 +40,7 @@ func main() {
 	fmt.Println("start\n")
 
 	p := NewPerson("John", "Doe", WithAddress("Tokyo"), WithAge(30))
-	//fmt.Println(now.Format("2006/01/0215:04:05"))
+
 	fmt.Printf("%+v\n", p)
 
 	fmt.Println("\nend")

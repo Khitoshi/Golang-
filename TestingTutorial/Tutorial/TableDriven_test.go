@@ -24,7 +24,7 @@ func TestStringDistance(t *testing.T) {
 		{name: "1 diff", lhs: "foo", rhs: "foh", want: 1},
 		{name: "2 diff", lhs: "foo", rhs: "fhh", want: 2},
 		{name: "3 diff", lhs: "foo", rhs: "hhh", want: 3},
-		//{name: "multibyte", lhs: "あいえ", rhs: "あいえ", want: 1}, //FAILD
+		{name: "multibyte", lhs: "あいえ", rhs: "あいえ", want: 1}, //FAILD
 	}
 
 	for _, tc := range tests {
